@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Mavacell - Manutenção e Desbloqueio</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+  body {
+    margin: 0; background: #121212; color: #eee; font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+  }
+  header {
+    background: linear-gradient(90deg, #0d47a1, #ffc107);
+    padding: 1.5rem 2rem;
+    display: flex; justify-content: space-between; align-items: center;
+    box-shadow: 0 2px 10px rgba(255,193,7,0.4);
+  }
+  header h1 {
+    margin: 0; font-weight: 700; font-size: 1.8rem; letter-spacing: 2px;
+    color: #fff;
+  }
+  header .partner {
+    font-size: 0.9rem; color: #fff; font-weight: 400;
+    font-style: italic;
+  }
+  main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  .typing {
+    font-weight: 700; font-size: 1.6rem; color: #ffc107;
+    border-right: 3px solid #ffc107; white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 3s steps(30, end) forwards, blink 0.75s step-end infinite;
+    margin-bottom: 2rem;
+  }
+  @keyframes typing {
+    to { width: 100%; }
+  }
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+  section.services {
+    margin-bottom: 2rem;
+  }
+  section.services h2 {
+    color: #0d47a1; border-bottom: 3px solid #ffc107;
+    padding-bottom: 0.5rem;
+  }
+  ul.services-list {
+    list-style: none; padding: 0; margin: 1rem 0;
+  }
+  ul.services-list li {
+    background: #222; margin-bottom: 10px; padding: 1rem;
+    border-radius: 6px;
+    display: flex; justify-content: space-between; align-items: center;
+    transition: background 0.3s ease;
+    cursor: default;
+  }
+  ul.services-list li:hover {
+    background: #0d47a1;
+  }
+  ul.services-list li span.price {
+    font-weight: 700; color: #ffc107;
+  }
+  section.contacts {
+    background: #222; padding: 1rem 2rem; border-radius: 6px;
+    display: flex; justify-content: space-around; flex-wrap: wrap;
+  }
+  section.contacts div {
+    margin: 0.5rem 1rem;
+    text-align: center;
+  }
+  section.contacts a {
+    color: #0d47a1; font-weight: 700; text-decoration: none;
+    display: inline-block; margin-top: 0.3rem;
+  }
+  section.contacts a:hover {
+    text-decoration: underline;
+  }
+  footer {
+    margin-top: 3rem; padding: 1rem; text-align: center;
+    font-size: 0.85rem; color: #666;
+  }
+  .pix {
+    margin-top: 1rem; font-weight: 700; color: #ffc107;
+  }
+  .locations {
+    margin-top: 2rem; font-style: italic; color: #bbb;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Mavacell</h1>
+  <div class="partner">em parceria com Infoxcell</div>
+</header>
+
+<main>
+  <div class="typing">Seu celular funcionando como novo, desbloqueios e manutenções com confiança.</div>
+
+  <section class="services">
+    <h2>Serviços & Preços</h2>
+    <ul class="services-list">
+      <li>Desbloqueio via IMEI <span class="price">R$ 100,00</span></li>
+      <li>Desbloqueio MDM Samsung (semi definitivo) <span class="price">R$ 120,00</span></li>
+      <li>Desbloqueio MDM Redmi (definitivo) <span class="price">R$ 250,00</span></li>
+      <li>Manutenção em celulares, notebooks e micros <span class="price">Sob consulta</span></li>
+      <li>Atendimento remoto via Anydesk e similares <span class="price">Incluso</span></li>
+    </ul>
+  </section>
+
+  <section class="contacts">
+    <div>
+      <strong>Eric Amaral</strong><br />
+      WhatsApp:<br />
+      <a href="https://wa.me/5521972194287" target="_blank">+55 21 97219-4287</a>
+    </div>
+    <div>
+      <strong>Maxuel (Parceiro Infoxcell)</strong><br />
+      WhatsApp:<br />
+      <a href="https://wa.me/5521991014805" target="_blank">+55 21 99101-4805</a>
+    </div>
+  </section>
+
+  <div class="pix">
+    Pix (Itaú): <br />
+    <strong>21972194287</strong>
+  </div>
+
+  <div class="locations">
+    Atendemos em São Gonçalo, Niterói e Jacarepaguá - Rio de Janeiro
+  </div>
+</main>
+
+<footer>
+  &copy; 2025 Mavacell | Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
